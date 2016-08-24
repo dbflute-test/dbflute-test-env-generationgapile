@@ -1,0 +1,7 @@
+/target
+/bin
+/*.iml
+/.idea
+.DS_Store
+/tomcat.*
+trial_config.ignored
