@@ -22,7 +22,7 @@ import org.dbflute.jetty.JettyBoot;
  */
 public class HangarBoot { // #change_it_first
 
-    public static void main(String[] args) { // e.g. java -Dlasta.env=production -jar magicpile-hangar.war
+    public static void main(String[] args) { // e.g. java -Dlasta.env=production -jar gapile-hangar.war
         new JettyBoot(8092, "/hangar").asDevelopment(isNoneEnv()).bootAwait();
     }
 

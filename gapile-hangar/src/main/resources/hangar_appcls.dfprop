@@ -17,7 +17,7 @@
 map:{
     ; SearchMemberStatus = list:{
         ; map:{ topComment=MemberStatus for search condition ; codeType=String }
-        ; map:{ refCls=magicpiledb@MemberStatus ; refType=included }
+        ; map:{ refCls=gapiledb@MemberStatus ; refType=included }
         ; map:{ code=ALL; name=All; alias=All Statuses; comment=without status filter }
     }
 }

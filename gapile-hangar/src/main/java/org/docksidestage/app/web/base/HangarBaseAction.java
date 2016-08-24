@@ -17,7 +17,6 @@ package org.docksidestage.app.web.base;
 
 import javax.annotation.Resource;
 
-import org.dbflute.optional.OptionalObject;
 import org.dbflute.optional.OptionalThing;
 import org.docksidestage.app.web.base.login.HangarLoginAssist;
 import org.docksidestage.mylasta.action.HangarMessages;
@@ -32,7 +31,7 @@ import org.lastaflute.web.validation.LaValidatableApi;
  * @author jflute
  * @author iwamatsu0430
  */
-public abstract class HangarBaseAction extends MagicpileBaseAction implements LaValidatableApi<HangarMessages> {
+public abstract class HangarBaseAction extends GapileBaseAction implements LaValidatableApi<HangarMessages> {
 
     // ===================================================================================
     //                                                                          Definition
@@ -82,7 +81,7 @@ public abstract class HangarBaseAction extends MagicpileBaseAction implements La
 
     @Override
     protected OptionalThing<String> myUserType() { // for framework
-        return OptionalObject.of(USER_TYPE);
+        return OptionalThing.of(USER_TYPE);
     }
 
     @Override

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE logback>
 <!-- _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_ -->
-<!-- Magicpile logging settings for Unit Test -->
+<!-- Gapile logging settings for Unit Test -->
 <!-- _/_/_/_/_/_/_/_/_/_/_ -->
 <configuration>
   <include resource="logparts/logback_property.xml" />

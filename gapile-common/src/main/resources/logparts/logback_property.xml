@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE logback>
 <!-- _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_ -->
-<!-- Magicpile logging property settings for All Environments -->
+<!-- Gapile logging property settings for All Environments -->
 <!-- _/_/_/_/_/_/_/_/_/_/_ -->
 <included>
-  <property resource="magicpile_env.properties" />
-  <property resource="magicpile_env_${lasta.env}.properties" />
-  <property resource="magicpile_config.properties" />
-  <property name="domain.name" value="${domain.name:-magicpile}"/>
+  <property resource="gapile_env.properties" />
+  <property resource="gapile_env_${lasta.env}.properties" />
+  <property resource="gapile_config.properties" />
+  <property name="domain.name" value="${domain.name:-gapile}"/>
   <property name="log.level" value="${log.level:-debug}"/>
   <property name="log.pattern" value="%d [%t] %-5p \\(%C{0}@%M\\(\\):%L\\) - %m%n"/>
   <property name="log.file.basedir" value="${log.file.basedir:-/tmp/lastaflute/undefinedbasedir}"/>

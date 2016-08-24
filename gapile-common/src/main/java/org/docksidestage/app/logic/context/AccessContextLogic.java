@@ -19,7 +19,7 @@ import javax.annotation.Resource;
 
 import org.dbflute.hook.AccessContext;
 import org.dbflute.optional.OptionalThing;
-import org.docksidestage.mylasta.action.MagicpileUserBean;
+import org.docksidestage.mylasta.action.GapileUserBean;
 import org.lastaflute.core.time.TimeManager;
 import org.lastaflute.db.dbflute.accesscontext.AccessContextResource;
 
@@ -44,7 +44,7 @@ public class AccessContextLogic {
 
     @FunctionalInterface
     public static interface UserBeanSupplier {
-        OptionalThing<? extends MagicpileUserBean> supply();
+        OptionalThing<? extends GapileUserBean> supply();
     }
 
     @FunctionalInterface

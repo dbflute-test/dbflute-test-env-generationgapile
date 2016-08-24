@@ -22,7 +22,7 @@ import org.dbflute.tomcat.TomcatBoot;
  */
 public class DocksideBoot { // #change_it_first
 
-    public static void main(String[] args) { // e.g. java -Dlasta.env=production -jar magicpile-dockside.war
+    public static void main(String[] args) { // e.g. java -Dlasta.env=production -jar gapile-dockside.war
         new TomcatBoot(8091, "/dockside").asDevelopment(isNoneEnv()).bootAwait();
     }
 

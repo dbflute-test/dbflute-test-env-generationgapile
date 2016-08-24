@@ -25,7 +25,7 @@ import org.lastaflute.web.servlet.filter.cors.CorsHook;
 /**
  * @author jflute
  */
-public class HangarFwAssistantDirector extends MagicpileFwAssistantDirector {
+public class HangarFwAssistantDirector extends GapileFwAssistantDirector {
 
     @Override
     protected void setupAppConfig(List<String> nameList) {

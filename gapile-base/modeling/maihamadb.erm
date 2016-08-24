@@ -43,7 +43,7 @@
 		<masterDataBasePath></masterDataBasePath>
 		<export_setting>
 			<category_name_to_export>全体</category_name_to_export>
-			<ddl_output>/magicpile-common/dbflute_magicpiledb/playsql/replace-schema-10-basic.sql</ddl_output>
+			<ddl_output>/gapile-common/dbflute_gapiledb/playsql/replace-schema-10-basic.sql</ddl_output>
 			<excel_output></excel_output>
 			<excel_template></excel_template>
 			<image_output></image_output>

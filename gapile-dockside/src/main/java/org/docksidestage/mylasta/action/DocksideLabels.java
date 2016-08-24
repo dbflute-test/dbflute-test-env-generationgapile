@@ -15,13 +15,13 @@
  */
 package org.docksidestage.mylasta.action;
 
-import org.docksidestage.mylasta.action.MagicpileMessages;
+import org.docksidestage.mylasta.action.GapileMessages;
 
 /**
  * The keys for message.
  * @author FreeGen
  */
-public class DocksideLabels extends MagicpileMessages {
+public class DocksideLabels extends GapileMessages {
 
     /** The serial version UID for object serialization. (Default) */
     private static final long serialVersionUID = 1L;

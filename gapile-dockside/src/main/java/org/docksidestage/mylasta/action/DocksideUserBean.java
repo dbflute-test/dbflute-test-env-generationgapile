@@ -20,7 +20,7 @@ import org.docksidestage.dbflute.exentity.Member;
 /**
  * @author jflute
  */
-public class DocksideUserBean extends MagicpileUserBean { // #change_it also LoginAssist
+public class DocksideUserBean extends GapileUserBean { // #change_it also LoginAssist
 
     // ===================================================================================
     //                                                                          Definition

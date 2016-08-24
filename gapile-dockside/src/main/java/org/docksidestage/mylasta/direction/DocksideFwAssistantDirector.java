@@ -30,7 +30,7 @@ import org.lastaflute.web.ruts.renderer.HtmlRenderingProvider;
 /**
  * @author jflute
  */
-public class DocksideFwAssistantDirector extends MagicpileFwAssistantDirector {
+public class DocksideFwAssistantDirector extends GapileFwAssistantDirector {
 
     @Resource
     private DocksideConfig docksideConfig;

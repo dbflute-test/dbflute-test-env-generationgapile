@@ -22,7 +22,7 @@ import org.docksidestage.mylasta.appcls.AppCDef;
 /**
  * @author jflute
  */
-public class DocksideListedClassificationProvider extends MagicpileListedClassificationProvider {
+public class DocksideListedClassificationProvider extends GapileListedClassificationProvider {
 
     @Override
     protected OptionalThing<ClassificationMeta> onAppCls(String clsName) {

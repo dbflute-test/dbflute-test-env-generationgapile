@@ -36,7 +36,7 @@ import org.lastaflute.web.login.option.LoginSpecifiedOption;
 /**
  * @author jflute
  */
-public class DocksideLoginAssist extends MagicpileLoginAssist<DocksideUserBean, Member> { // #change_it
+public class DocksideLoginAssist extends GapileLoginAssist<DocksideUserBean, Member> { // #change_it
 
     // ===================================================================================
     //                                                                           Attribute
@@ -48,7 +48,7 @@ public class DocksideLoginAssist extends MagicpileLoginAssist<DocksideUserBean, 
     @Resource
     private TransactionStage transactionStage;
     @Resource
-    private DocksideConfig docksideConfig;
+    private DocksideConfig config;
     @Resource
     private MemberBhv memberBhv;
     @Resource
@@ -92,7 +92,7 @@ public class DocksideLoginAssist extends MagicpileLoginAssist<DocksideUserBean, 
 
     @Override
     protected OptionalThing<String> getCookieRememberMeKey() {
-        return OptionalThing.of(docksideConfig.getCookieRememberMeDocksideKey());
+        return OptionalThing.of(config.getCookieRememberMeDocksideKey());
     }
 
     @Override

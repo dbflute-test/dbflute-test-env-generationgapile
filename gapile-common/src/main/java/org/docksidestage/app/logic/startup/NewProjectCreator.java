@@ -112,7 +112,7 @@ public class NewProjectCreator {
                 || isTestDbResource(canonicalPath) // e.g. H2 database
                 || isDBFluteClientLog(canonicalPath) // e.g. dbflute.log
                 || isH2DatabaseDDL(canonicalPath) // e.g. ...80-comment.sql
-                || isErdImage(canonicalPath) // e.g. magicpiledb.png
+                || isErdImage(canonicalPath) // e.g. gapiledb.png
                 || isOssText(canonicalPath) // e.g. LICENSE
                 || isGitDir(canonicalPath) // e.g. .git
                 || isBuildDir(canonicalPath) // e.g. target
@@ -370,7 +370,7 @@ public class NewProjectCreator {
     }
 
     protected boolean isErdImage(String canonicalPath) {
-        return Srl.containsAny(canonicalPath, "/magicpiledb.png");
+        return Srl.containsAny(canonicalPath, "/gapiledb.png");
     }
 
     protected boolean isOssText(String canonicalPath) {

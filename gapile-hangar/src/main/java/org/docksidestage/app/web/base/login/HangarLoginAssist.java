@@ -36,7 +36,7 @@ import org.lastaflute.web.login.option.LoginSpecifiedOption;
 /**
  * @author jflute
  */
-public class HangarLoginAssist extends MagicpileLoginAssist<HangarUserBean, Member> { // #change_it
+public class HangarLoginAssist extends GapileLoginAssist<HangarUserBean, Member> { // #change_it
 
     // ===================================================================================
     //                                                                           Attribute
@@ -48,7 +48,7 @@ public class HangarLoginAssist extends MagicpileLoginAssist<HangarUserBean, Memb
     @Resource
     private TransactionStage transactionStage;
     @Resource
-    private HangarConfig hangarConfig;
+    private HangarConfig config;
     @Resource
     private MemberBhv memberBhv;
     @Resource
@@ -92,7 +92,7 @@ public class HangarLoginAssist extends MagicpileLoginAssist<HangarUserBean, Memb
 
     @Override
     protected OptionalThing<String> getCookieRememberMeKey() {
-        return OptionalThing.of(hangarConfig.getCookieRememberMeHangarKey());
+        return OptionalThing.of(config.getCookieRememberMeHangarKey());
     }
 
     @Override

@@ -2,8 +2,8 @@
 <!DOCTYPE components PUBLIC "-//DBFLUTE//DTD LastaDi 1.0//EN"
 	"http://dbflute.org/meta/lastadi10.dtd">
 <components>
-	<component name="assistantDirector" class="org.docksidestage.unit.mock.MockMagicpileFwAssistantDirector"/>
-	<component name="magicpileConfig" class="org.docksidestage.mylasta.direction.MagicpileConfig$SimpleImpl">
+	<component name="assistantDirector" class="org.docksidestage.unit.mock.MockGapileFwAssistantDirector"/>
+	<component name="gapileConfig" class="org.docksidestage.mylasta.direction.GapileConfig$SimpleImpl">
 		<postConstruct name="initialize"/>
 	</component>
 </components>

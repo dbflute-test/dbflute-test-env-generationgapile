@@ -15,13 +15,13 @@
  */
 package org.docksidestage.mylasta.direction;
 
-import org.docksidestage.mylasta.direction.MagicpileConfig;
+import org.docksidestage.mylasta.direction.GapileConfig;
 import org.lastaflute.core.direction.exception.ConfigPropertyNotFoundException;
 
 /**
  * @author FreeGen
  */
-public interface HangarEnv extends MagicpileConfig {
+public interface HangarEnv extends GapileConfig {
 
     /** The key of the configuration. e.g. hangar-support@saw.example.com */
     String MAIL_ADDRESS_SUPPORT = "mail.address.support";
@@ -65,7 +65,7 @@ public interface HangarEnv extends MagicpileConfig {
      * The simple implementation for configuration.
      * @author FreeGen
      */
-    public static class SimpleImpl extends MagicpileConfig.SimpleImpl implements HangarEnv {
+    public static class SimpleImpl extends GapileConfig.SimpleImpl implements HangarEnv {
 
         /** The serial version UID for object serialization. (Default) */
         private static final long serialVersionUID = 1L;

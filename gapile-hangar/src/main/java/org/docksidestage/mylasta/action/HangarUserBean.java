@@ -21,7 +21,7 @@ import org.docksidestage.dbflute.exentity.Member;
  * @author jflute
  * @author iwamatsu0430
  */
-public class HangarUserBean extends MagicpileUserBean { // #change_it also LoginAssist
+public class HangarUserBean extends GapileUserBean { // #change_it also LoginAssist
 
     // ===================================================================================
     //                                                                          Definition

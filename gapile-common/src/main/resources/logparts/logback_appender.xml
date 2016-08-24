@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE logback>
 <!-- _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_ -->
-<!-- Magicpile logging appender settings for All Environments -->
+<!-- Gapile logging appender settings for All Environments -->
 <!-- _/_/_/_/_/_/_/_/_/_/_ -->
 <included>
   <appender name="console" class="ch.qos.logback.core.ConsoleAppender">

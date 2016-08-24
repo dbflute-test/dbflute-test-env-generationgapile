@@ -29,7 +29,7 @@ import org.dbflute.util.Srl;
 public class StartupLogic {
 
     public void fromDockside(File repositoryDir, String domain, String serviceName, String appName) {
-        new NewProjectCreator("dockside", repositoryDir, "magicpile-dockside", original -> {
+        new NewProjectCreator("dockside", repositoryDir, "gapile-dockside", original -> {
             String filtered = original;
             filtered = filterCommonItem(domain, serviceName, filtered);
             filtered = replace(filtered, "Dockside", Srl.initCap(appName));
@@ -41,7 +41,7 @@ public class StartupLogic {
     }
 
     public void fromHangar(File repositoryDir, String domain, String serviceName, String appName) {
-        new NewProjectCreator("hangar", repositoryDir, "magicpile-hangar", original -> {
+        new NewProjectCreator("hangar", repositoryDir, "gapile-hangar", original -> {
             String filtered = original;
             filtered = filterCommonItem(domain, serviceName, filtered);
             filtered = replace(filtered, "Hangar", Srl.initCap(appName));
@@ -54,13 +54,13 @@ public class StartupLogic {
 
     protected String filterCommonItem(String domain, String serviceName, String filtered) {
         String packageName = buildPackageName(domain);
-        filtered = replace(filtered, "lastaflute-example-magicpile", Srl.initUncap(serviceName));
-        filtered = replace(filtered, "magicpiledb", Srl.initUncap(serviceName) + (!serviceName.endsWith("db") ? "db" : ""));
+        filtered = replace(filtered, "lastaflute-example-gapile", Srl.initUncap(serviceName));
+        filtered = replace(filtered, "gapiledb", Srl.initUncap(serviceName) + (!serviceName.endsWith("db") ? "db" : ""));
         filtered = replace(filtered, "org/docksidestage", replace(packageName, ".", "/"));
         filtered = replace(filtered, "docksidestage.org", domain);
         filtered = replace(filtered, "org.docksidestage", packageName);
-        filtered = replace(filtered, "Magicpile", Srl.initCap(serviceName));
-        filtered = replace(filtered, "magicpile", Srl.initUncap(serviceName));
+        filtered = replace(filtered, "Gapile", Srl.initCap(serviceName));
+        filtered = replace(filtered, "gapile", Srl.initUncap(serviceName));
         return filtered;
     }
 

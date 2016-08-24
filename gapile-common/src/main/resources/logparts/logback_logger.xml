@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE logback>
 <!-- _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_ -->
-<!-- Magicpile logging logger settings for All Environments -->
+<!-- Gapile logging logger settings for All Environments -->
 <!-- _/_/_/_/_/_/_/_/_/_/_ -->
 <included>
   <logger name="org.dbflute" additivity="false" level="${log.level}">

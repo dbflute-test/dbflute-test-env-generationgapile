@@ -36,7 +36,7 @@ public class DBCurrent {
     // ===================================================================================
     //                                                                           Attribute
     //                                                                           =========
-    protected final String _projectName = "magicpiledb";
+    protected final String _projectName = "gapiledb";
     protected final String _projectPrefix = "";
     protected final String _generationGapBasePrefix = "Bs";
 
@@ -73,7 +73,7 @@ public class DBCurrent {
     //                                                                        ============
     /**
      * Get project name of the database (DBFlute client).
-     * @return The name string, lower case in many cases. e.g. magicpiledb (NotNull)
+     * @return The name string, lower case in many cases. e.g. maihamadb (NotNull)
      */
     public String projectName() {
         return _projectName;
