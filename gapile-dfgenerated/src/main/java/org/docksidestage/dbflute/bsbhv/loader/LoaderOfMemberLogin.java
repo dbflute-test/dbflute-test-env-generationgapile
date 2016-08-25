@@ -40,13 +40,13 @@ import org.docksidestage.dbflute.exentity.*;
  *     
  *
  * [foreign table]
- *     MEMBER, MEMBER_STATUS
+ *     MEMBER_STATUS, MEMBER
  *
  * [referrer table]
  *     
  *
  * [foreign property]
- *     member, memberStatus
+ *     memberStatus, member
  *
  * [referrer property]
  *     
@@ -74,18 +74,18 @@ public class LoaderOfMemberLogin {
     // ===================================================================================
     //                                                                    Pull out Foreign
     //                                                                    ================
-    protected LoaderOfMember _foreignMemberLoader;
-    public LoaderOfMember pulloutMember() {
-        if (_foreignMemberLoader == null)
-        { _foreignMemberLoader = new LoaderOfMember().ready(myBhv().pulloutMember(_selectedList), _selector); }
-        return _foreignMemberLoader;
-    }
-
     protected LoaderOfMemberStatus _foreignMemberStatusLoader;
     public LoaderOfMemberStatus pulloutMemberStatus() {
         if (_foreignMemberStatusLoader == null)
         { _foreignMemberStatusLoader = new LoaderOfMemberStatus().ready(myBhv().pulloutMemberStatus(_selectedList), _selector); }
         return _foreignMemberStatusLoader;
+    }
+
+    protected LoaderOfMember _foreignMemberLoader;
+    public LoaderOfMember pulloutMember() {
+        if (_foreignMemberLoader == null)
+        { _foreignMemberLoader = new LoaderOfMember().ready(myBhv().pulloutMember(_selectedList), _selector); }
+        return _foreignMemberLoader;
     }
 
     // ===================================================================================
