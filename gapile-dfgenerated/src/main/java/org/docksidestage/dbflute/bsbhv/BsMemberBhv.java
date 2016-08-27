@@ -72,6 +72,10 @@ public abstract class BsMemberBhv extends AbstractBehaviorWritable<Member, Membe
     //                                                                          Definition
     //                                                                          ==========
     /*df:beginQueryPath*/
+    /** Example for Simple Select */
+    public static final String PATH_selectSimpleMember = "selectSimpleMember";
+    /** Example for AutoPaging */
+    public static final String PATH_selectUnpaidSummaryMember = "selectUnpaidSummaryMember";
     /*df:endQueryPath*/
 
     // ===================================================================================
