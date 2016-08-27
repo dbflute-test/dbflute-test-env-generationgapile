@@ -36,7 +36,30 @@ gapile-dfgenerated
 ```
 
 # DBFlute Settings
-TODO jflute make gapile option
+basicInfoMap.dfprop
+```
+    ...
+    # - - - - - - - - - -/
+
+    # /- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    # o generationGapileMap: (NotRequired - Default map:{})
+    #  The settings for Generation Gapile.
+    #  You can compile separating base classes from extended classes
+    #  to avoid compile cost of developers.
+    #
+    ; generationGapileMap = map:{
+        ; gapileDirectory = ../../gapile-dfgenerated/src/main/java
+    }
+    # - - - - - - - - - -/
+
+    # /- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    # o dbfluteSystemFinalTimeZone: (NotRequired - Default null)
+    #  The ID of time-zone for DBFlute system.
+    #  basically for e.g. DisplaySql, Date conversion, LocalDate mapping and so on...
+    #
+    #; dbfluteSystemFinalTimeZone = GMT
+    # - - - - - - - - - -/
+```
 
 # Information
 ## License
