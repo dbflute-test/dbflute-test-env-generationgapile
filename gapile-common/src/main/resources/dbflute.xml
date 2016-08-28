@@ -29,5 +29,6 @@
 	<component name="regionBhv" class="org.docksidestage.dbflute.exbhv.RegionBhv"/>
 	<component name="serviceRankBhv" class="org.docksidestage.dbflute.exbhv.ServiceRankBhv"/>
 	<component name="summaryProductBhv" class="org.docksidestage.dbflute.exbhv.SummaryProductBhv"/>
+	<component name="summaryWithdrawalBhv" class="org.docksidestage.dbflute.exbhv.SummaryWithdrawalBhv"/>
 	<component name="withdrawalReasonBhv" class="org.docksidestage.dbflute.exbhv.WithdrawalReasonBhv"/>
 </components>

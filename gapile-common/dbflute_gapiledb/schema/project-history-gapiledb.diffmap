@@ -1,4 +1,43 @@
 map:{
+    ; 2016/08/28 16:29:15 = map:{
+        ; diffDate = 2016/08/28 16:29:15
+        ; tableCount = map:{
+            ; next = 18
+            ; previous = 17
+        }
+        ; tableDiff = map:{
+            ; summary_withdrawal = map:{
+                ; tableName = summary_withdrawal
+                ; diffType = ADD
+            }
+        }
+    }
+    ; 2016/08/28 16:27:35 = map:{
+        ; diffDate = 2016/08/28 16:27:35
+        ; tableCount = map:{
+            ; next = 17
+            ; previous = 18
+        }
+        ; tableDiff = map:{
+            ; summary_withdrawal = map:{
+                ; tableName = summary_withdrawal
+                ; diffType = DELETE
+            }
+        }
+    }
+    ; 2016/08/28 16:26:38 = map:{
+        ; diffDate = 2016/08/28 16:26:38
+        ; tableCount = map:{
+            ; next = 18
+            ; previous = 17
+        }
+        ; tableDiff = map:{
+            ; summary_withdrawal = map:{
+                ; tableName = summary_withdrawal
+                ; diffType = ADD
+            }
+        }
+    }
     ; 2016/08/28 13:29:26 = map:{
         ; diffDate = 2016/08/28 13:29:26
         ; tableCount = map:{
