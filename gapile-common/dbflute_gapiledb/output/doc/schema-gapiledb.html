@@ -489,7 +489,7 @@ dl.procedurelist dd.column pre {
 
 <h2 id="member" title="type=TABLE, primaryKey={MEMBER_ID}, nameLength=6, columnCount=11">
 (会員)MEMBER
-&nbsp;<span class="bqpcount"><a href="#member_sql">(outsideSql=4)</a></span>
+&nbsp;<span class="bqpcount"><a href="#member_sql">(outsideSql=6)</a></span>
 </h2>
 <p class="tablecomment">会員のプロフィールやアカウントなどの基本情報を保持する。<br>基本的に物理削除はなく、退会したらステータスが退会会員になる。<br>ライフサイクルやカテゴリの違う会員情報は、one-to-oneなどの関連テーブルにて。</p>
 <table>
@@ -3506,6 +3506,17 @@ dl.procedurelist dd.column pre {
 <h2 id="outsidesql">OutsideSql List</h2>
 <h3 id="member_sql"><a href="#member">MEMBER</a></h3>
 <dl class="bqplist">
+	<dt>(Example&nbsp;for&nbsp;CursorSelect)selectPurchaseSummaryMember</dt>
+	<dd>
+		<pre class="commentdesc"> This SQL is an example for cursor-select of outside-SQL
+ and also for the following functions:
+  o FOR comment with NEXT</pre>
+	</dd>
+	<dd class="subinfo">
+		<span class="file">MemberBhv_selectPurchaseSummaryMember.sql</span>
+		<span class="ctet">(df:entity *cursor)</span>
+		<span class="pmb">(df:pmb)</span>
+	</dd>
 	<dt>(Example&nbsp;for&nbsp;Simple&nbsp;Select)selectSimpleMember</dt>
 	<dd>
 		<pre class="commentdesc"> This SQL is the most basic example for outsideSql.
@@ -3548,6 +3559,18 @@ dl.procedurelist dd.column pre {
         <span class="sqlap">(gapile-dockside)</span>
 		<span class="file">MemberBhv_selectApp2ndSimple.sql</span>
 		<span class="ctet">(df:entity)</span>
+		<span class="pmb">(df:pmb)</span>
+	</dd>
+	<dt>(Example&nbsp;for&nbsp;Application&nbsp;3rd&nbsp;CursorSelect)selectApp3rdCursor</dt>
+	<dd>
+		<pre class="commentdesc"> This SQL is an example for cursor-select of application 3rd outside-SQL
+ and also for the following functions:
+  o FOR comment with NEXT</pre>
+	</dd>
+	<dd class="subinfo">
+        <span class="sqlap">(gapile-dockside)</span>
+		<span class="file">MemberBhv_selectApp3rdCursor.sql</span>
+		<span class="ctet">(df:entity *cursor)</span>
 		<span class="pmb">(df:pmb)</span>
 	</dd>
 </dl>
