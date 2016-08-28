@@ -1,0 +1,110 @@
+map:{
+    ; 2016/08/28 13:29:26 = map:{
+        ; diffDate = 2016/08/28 13:29:26
+        ; tableCount = map:{
+            ; next = 17
+            ; previous = 18
+        }
+        ; tableDiff = map:{
+            ; summary_withdrawal = map:{
+                ; tableName = summary_withdrawal
+                ; diffType = DELETE
+            }
+        }
+    }
+    ; 2016/08/28 13:28:46 = map:{
+        ; diffDate = 2016/08/28 13:28:46
+        ; tableCount = map:{
+            ; next = 18
+            ; previous = 17
+        }
+        ; tableDiff = map:{
+            ; summary_withdrawal = map:{
+                ; tableName = summary_withdrawal
+                ; diffType = ADD
+            }
+        }
+    }
+    ; 2016/08/28 12:39:29 = map:{
+        ; diffDate = 2016/08/28 12:39:29
+        ; tableCount = map:{
+            ; next = 17
+            ; previous = 18
+        }
+        ; tableDiff = map:{
+            ; summary_withdrawal = map:{
+                ; tableName = summary_withdrawal
+                ; diffType = DELETE
+            }
+        }
+    }
+    ; 2016/08/28 12:38:03 = map:{
+        ; diffDate = 2016/08/28 12:38:03
+        ; tableCount = map:{
+            ; next = 18
+            ; previous = 17
+        }
+        ; tableDiff = map:{
+            ; summary_withdrawal = map:{
+                ; tableName = summary_withdrawal
+                ; diffType = ADD
+            }
+        }
+    }
+    ; 2016/08/28 12:35:39 = map:{
+        ; diffDate = 2016/08/28 12:35:39
+        ; tableCount = map:{
+            ; next = 17
+            ; previous = 18
+        }
+        ; tableDiff = map:{
+            ; summary_withdrawal = map:{
+                ; tableName = summary_withdrawal
+                ; diffType = DELETE
+            }
+        }
+    }
+    ; 2016/08/28 12:32:17 = map:{
+        ; diffDate = 2016/08/28 12:32:17
+        ; tableCount = map:{
+            ; next = 18
+            ; previous = 17
+        }
+        ; tableDiff = map:{
+            ; summary_withdrawal = map:{
+                ; tableName = summary_withdrawal
+                ; diffType = ADD
+            }
+        }
+    }
+    ; 2016/08/28 12:18:01 = map:{
+        ; diffDate = 2016/08/28 12:18:01
+        ; tableCount = map:{
+            ; next = 17
+            ; previous = 18
+        }
+        ; tableDiff = map:{
+            ; summary_withdrawal = map:{
+                ; tableName = summary_withdrawal
+                ; diffType = DELETE
+            }
+        }
+    }
+    ; 2016/08/28 12:14:36 = map:{
+        ; diffDate = 2016/08/28 12:14:36
+        ; tableCount = map:{
+            ; next = 18
+            ; previous = 16
+        }
+        ; tableDiff = map:{
+            ; summary_product = map:{
+                ; tableName = summary_product
+                ; diffType = ADD
+            }
+            ; summary_withdrawal = map:{
+                ; tableName = summary_withdrawal
+                ; diffType = ADD
+            }
+        }
+    }
+}

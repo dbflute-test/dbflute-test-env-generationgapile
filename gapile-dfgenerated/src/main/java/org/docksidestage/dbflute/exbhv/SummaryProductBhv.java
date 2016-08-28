@@ -13,21 +13,17 @@
  * either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
-package org.docksidestage.dbflute.exbhv.pmbean;
+package org.docksidestage.dbflute.exbhv;
 
-import org.docksidestage.dbflute.bsbhv.pmbean.BsApp2ndSimplePmb;
+import org.docksidestage.dbflute.bsbhv.BsSummaryProductBhv;
 
 /**
- * <!-- df:beginClassDescription -->
- * The typed parameter-bean of App2ndSimple. <span style="color: #AD4747">(typed to list, entity)</span><br>
- * This is related to "<span style="color: #AD4747">selectApp2ndSimple</span>" on MemberBhv, <br>
- * described as "Example for Application 2nd Simple Select". <br>
- * <!-- df:endClassDescription -->
+ * The behavior of SUMMARY_PRODUCT.
  * <p>
  * You can implement your original methods here.
  * This class remains when re-generating.
  * </p>
  * @author DBFlute(AutoGenerator)
  */
-public class App2ndSimplePmb extends BsApp2ndSimplePmb {
+public class SummaryProductBhv extends BsSummaryProductBhv {
 }

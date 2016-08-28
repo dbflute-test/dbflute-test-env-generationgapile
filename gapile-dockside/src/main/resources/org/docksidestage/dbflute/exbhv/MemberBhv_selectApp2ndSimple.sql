@@ -1,9 +1,9 @@
 /*
  [df:title]
- Example for Simple Select
+ Example for Application 2nd Simple Select
  
  [df:description]
- This SQL is the most basic example for outsideSql.
+ This SQL is the most basic example for application 2nd outsideSql.
  It uses CustomizeEntity and ParameterBean.
 */
 -- #df:entity#

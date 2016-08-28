@@ -590,6 +590,26 @@
             <unique-column name="DISPLAY_ORDER" position="1"/>
         </unique>
     </table>
+    <table comment="VIEW" name="summary_product"
+        schema="gapile.$$NoNameSchema$$" type="VIEW">
+        <column comment="商品ID" dbType="INT" default="0"
+            javaType="Integer" name="PRODUCT_ID" required="true"
+            size="10" type="INTEGER"/>
+        <column
+            comment="商品名称 : ExampleDBとして、コメントの少ないケースを表現するため、あえてコメントを控えている。&#xa;実業務ではしっかりとコメントを入れることが強く強く推奨される。「よりによってこのテーブルでやらないでよ！」あわわ、何も聞こえません〜"
+            dbType="VARCHAR" javaType="String" name="PRODUCT_NAME"
+            required="true" size="50" type="VARCHAR"/>
+        <column
+            comment="商品ハンドルコード : これだけは書いておこう、商品を識別する業務上のコード。よく品番とか言うかもしれませんねぇ..."
+            dbType="VARCHAR" javaType="String"
+            name="PRODUCT_HANDLE_CODE" required="true" size="100" type="VARCHAR"/>
+        <column comment="商品ステータスコード : 商品ステータスを識別するコード。" dbType="CHAR"
+            javaType="String" name="PRODUCT_STATUS_CODE" required="true"
+            size="3" type="CHAR"/>
+        <column comment="" dbType="DATETIME"
+            javaType="java.time.LocalDateTime"
+            name="LATEST_PURCHASE_DATETIME" size="19" type="TIMESTAMP"/>
+    </table>
     <table comment="退会理由 : 会員に選ばせる定型的な退会理由のマスタ。そういえば、これ表示順カラムがないですねぇ..."
         name="withdrawal_reason" schema="gapile.$$NoNameSchema$$" type="TABLE">
         <column comment="退会理由コード" dbType="CHAR" javaType="String"
